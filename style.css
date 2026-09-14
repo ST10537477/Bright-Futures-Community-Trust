@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --forest: #1F3A2E;
+    --forest-light:#2C4F3D;
+    --gold: #C99A3E;
+    --gold-light: #E3BE72;
+    --cream: #F7F3EC;
+    --charcoal: #2B2A28;
+    --sage: #7C9885;
+    --white: #FFFFFF;
+    --max-width: 1120px;
+
+}
+
+* { box-sizing: border-box; }
+ 
+html { scroll-behavior: smooth; }
+ 
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: var(--charcoal);
+  background: var(--cream);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Fraunces', serif;
+  color: var(--forest);
+  margin: 0 0 0.5em;
+  line-height: 1.15;
+}
+ 
+h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 600; }
+h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; }
+h3 { font-size: 1.25rem; font-weight: 600; }
