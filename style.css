@@ -80,7 +80,7 @@ img { max-width: 100%; display: block; }
   font-family: 'Fraunces', serif;
   font-size: 1.3rem;
   font-weight: 700;
- color: var(--white);
+ color: var(--gold-light);
   text-decoration: none;
   letter-spacing: 0.01em;
   display: flex;
@@ -234,6 +234,7 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
   display: block;
   margin-bottom: 6px;
+  
 }
 
 .stats-strip {
