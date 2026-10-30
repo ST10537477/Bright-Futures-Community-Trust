@@ -133,7 +133,6 @@
  
       let name = document.getElementById("cName");
       let email = document.getElementById("cEmail");
-      let reason = document.getElementById("cReason");
       let message = document.getElementById("cMessage");
  
       [name, email, reason, message].forEach(clearError);
